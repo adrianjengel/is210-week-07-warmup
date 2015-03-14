@@ -18,7 +18,7 @@ def process_data(data):
 
     >>> process_data([10, 15, 25, 46])
     (96, 24.0)
-    
+
     """
     mysum = sum(data)
     myavg = mysum / float(len(data))
